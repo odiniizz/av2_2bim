@@ -3,12 +3,12 @@ import { colors } from "../../styles/globalstyle";
 
 export const styles = StyleSheet.create({
     buttonPrimary: {
-        backgroundColor: colors.black,
+        backgroundColor: colors.primary,
         borderRadius: 10,
         margin: 10,
     },
     buttonSecondary: {
-        backgroundColor: colors.black,
+        backgroundColor: colors.primary,
         borderRadius: 10,
         margin: 10,
     },

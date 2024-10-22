@@ -20,11 +20,11 @@ export function MenuTabs() {
     return (
         <Tab.Navigator 
             screenOptions={{ 
-                tabBarActiveBackgroundColor: 'rgb(143, 135, 131)',
+                tabBarActiveBackgroundColor: '#4EAC89',
                 tabBarActiveTintColor: colors.white,
                 headerShown: false,
                 tabBarShowLabel: false,
-                tabBarInactiveBackgroundColor: 'rgb(143, 135, 131)',
+                tabBarInactiveBackgroundColor: '#8E736C',
                 tabBarInactiveTintColor: colors.white,
             }}>
             <Tab.Screen name="HomeInicial" component={Home}
