@@ -5,18 +5,26 @@ export const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
+        alignSelf: 'center',
+        paddingTop: 30
     },
     message: {
         textAlign: "center",
         paddingBottom: 10,
     },
     camera: {
-        flex: 1,
+        width: 350,
+        height: 450
     },
+
+    back: {
+        flex: 1
+    },
+
     headerCamera: {
         flex: 1,
         alignItems: "center",
-        paddingTop: 40,
+        paddingTop: 30,
     },
     footerCamera: {
         flexDirection: 'row',
@@ -30,7 +38,7 @@ export const styles = StyleSheet.create({
         borderRadius: 35,
     },
     headerSave: {
-        paddingTop: 40,
+        paddingTop: 30,
         flexDirection: 'row',
         justifyContent: 'space-between',
     },

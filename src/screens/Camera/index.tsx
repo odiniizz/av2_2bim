@@ -49,7 +49,7 @@ export function Camera() {
 
     if (photo) {
         return (
-            <ImageBackground source={{ uri: photo.uri }} style={styles.camera}>
+            <ImageBackground source={{ uri: photo.uri }} style={styles.back}>
                 <View style={styles.headerSave}>
                     <TouchableOpacity onPress={() => setPhoto(undefined)}>
                         <MaterialCommunityIcons name="keyboard-backspace" size={50} color="black" />
