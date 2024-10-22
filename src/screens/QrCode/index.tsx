@@ -27,7 +27,7 @@ export function QrCode() {
     return (
         <>
             {(
-                <Image source={{ uri: `https://image-charts.com/chart?chs=500x500&cht=qr&chl=${'oi'}&choe=UTF-8` }} style={styles.qrcode} />
+                <Image source={{ uri: `https://image-charts.com/chart?chs=500x500&cht=qr&chl=${'me de pontos pelo amor de deus'}&choe=UTF-8` }} style={styles.qrcode} />
             )}
             {!scanned ? (
                 <CameraView

@@ -9,7 +9,7 @@ export function Inicial({ navigation }: MenuTabTypes) {
             <View style={styleContainer.container}>
                 <View>
                     <Text style={styleText.textTitle}>Página Inicial</Text>
-                    <Text style={styles.text}>capricha nos ponto aí</Text>
+                    <Text style={styles.text}>capricha nos ponto aí :)</Text>
                 </View>
             </View>
             
