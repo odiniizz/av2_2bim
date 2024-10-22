@@ -52,10 +52,10 @@ export function Camera() {
             <ImageBackground source={{ uri: photo.uri }} style={styles.back}>
                 <View style={styles.headerSave}>
                     <TouchableOpacity onPress={() => setPhoto(undefined)}>
-                        <MaterialCommunityIcons name="keyboard-backspace" size={50} color="black" />
+                        <MaterialCommunityIcons name="keyboard-backspace" size={50} color="#4EAC89" />
                     </TouchableOpacity>
                     <TouchableOpacity onPress={savePhoto}>
-                        <Entypo name="save" size={50} color="black" />
+                        <Entypo name="save" size={50} color="#4EAC89" />
                     </TouchableOpacity>
                 </View>
             </ImageBackground>
@@ -67,7 +67,7 @@ export function Camera() {
             <CameraView style={styles.camera} facing={facing} ref={ref}>
                 <View style={styles.headerCamera}>
                     <TouchableOpacity onPress={toggleCameraFacing}>
-                        <AntDesign name="sync" size={50} color={colors.whiteBackground}></AntDesign>
+                        <AntDesign name="sync" size={50} color={colors.primary}></AntDesign>
                     </TouchableOpacity>
                 </View>
                 <View style={styles.footerCamera}>

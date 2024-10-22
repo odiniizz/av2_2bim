@@ -1,12 +1,10 @@
 import { BarcodeScanningResult, CameraView, useCameraPermissions } from 'expo-camera';
-import { useAuth } from '../../hook/auth';
 import { useState } from 'react';
 import { Alert, Image, Text, TouchableOpacity, View } from 'react-native';
 import { styles } from './styles'
 import { ComponentButtonInterface, ComponentLoading } from '../../components';
 
 export function QrCode() {
-    const { user } = useAuth()
     const [scanned, setScanned] = useState(false);
     const [permission, requestPermission] = useCameraPermissions();
     if (!permission) {
